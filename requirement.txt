@@ -2,10 +2,7 @@ h5py
 numpy
 torch==1.4.0
 torchvision==0.2.0
-yaml
-pprint
 enum34
-future
 scipy==1.4.1
 opencv_contrib_python==3.4.2.16
 matplotlib==3.0.2
