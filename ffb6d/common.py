@@ -98,7 +98,7 @@ class Config:
             self.n_objects = 1 + 1  # 1 object + background
             self.n_classes = self.n_objects
             self.lm_cls_lst = [
-                1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15
+                1, 2, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 99
             ]
             self.lm_sym_cls_ids = [10, 11]
             self.lm_obj_dict = {
@@ -115,6 +115,7 @@ class Config:
                 'iron': 13,
                 'lamp': 14,
                 'phone': 15,
+                'pen': 99,
             }
             try:
                 self.cls_id = self.lm_obj_dict[cls_type]
